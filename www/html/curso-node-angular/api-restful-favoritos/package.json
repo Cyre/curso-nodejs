@@ -1,0 +1,14 @@
+{
+  "name": "api-restful-favoritos",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTful del curso de NodeJS y Angular 2 de victorroblesweb.es",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaai",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
