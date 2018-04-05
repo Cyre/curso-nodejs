@@ -11,7 +11,8 @@ app.use(bodyParser.json());
 
 // Uso de rutas.
 // Utiliza el metodo get de http
-app.get('/prueba/:nombre?', function(request, response) {
+							// Equivalente a function(request, response)
+app.get('/prueba/:nombre?', (request, response) => { 
 	//                   ^<-- Indica que el parametro es opcional
 	//Primer parametro de la funcion es el request
 	//Segundo parametro es la respuesta de la funcion
